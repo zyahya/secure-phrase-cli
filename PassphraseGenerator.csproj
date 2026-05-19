@@ -10,4 +10,8 @@
     <PublishSingleFile>true</PublishSingleFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="./Data/*.txt" />
+  </ItemGroup>
+
 </Project>
