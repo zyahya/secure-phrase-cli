@@ -13,4 +13,4 @@ catch
     passphrase = gen.Generate();
 }
 
-Console.WriteLine(passphrase);
+Console.Write(passphrase);
