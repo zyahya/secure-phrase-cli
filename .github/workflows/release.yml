@@ -33,9 +33,9 @@ jobs:
 
       - name: Publish
         run: |
-          dotnet publish ./PassphraseGenerator.csproj \
-            -c Release \
-            -r ${{ matrix.runtime }} \
+          dotnet publish ./PassphraseGenerator.csproj
+            -c Release
+            -r ${{ matrix.runtime }}
             -o publish/${{ matrix.runtime }}
 
       - name: Zip files
