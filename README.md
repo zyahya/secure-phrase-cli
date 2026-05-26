@@ -11,6 +11,12 @@ A fast, offline passphrase generator for the terminal. It uses the official EFF 
 - Simple CLI with an optional word count argument.
 - Cross-platform .NET app (Windows, macOS, Linux).
 
+## Installation
+
+```
+dotnet tool install -g SecurePhrase.Cli
+```
+
 ## Usage
 
 ```
