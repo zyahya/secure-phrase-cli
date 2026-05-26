@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SecurePhrase.Core\SecurePhrase.Core.csproj" />
+    <PackageReference Include="SecurePhrase" Version="0.1.0" />
   </ItemGroup>
 
 </Project>

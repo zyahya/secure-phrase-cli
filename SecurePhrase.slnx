@@ -1,4 +1,3 @@
 <Solution>
   <Project Path="SecurePhrase.Cli/SecurePhrase.Cli.csproj" />
-  <Project Path="SecurePhrase.Core/SecurePhrase.Core.csproj" />
 </Solution>
